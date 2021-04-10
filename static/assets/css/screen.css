@@ -232,6 +232,60 @@ a.nav-home, a.nav-blog {
 }
 
 /*	==========================================================================
+	Pagination
+	========================================================================== */
+
+/* The main wrapper for pagination links */
+.pagination {
+    position: relative;
+    margin: 2rem auto;
+    font-size: .79rem;
+    color: #9EABB3;
+    text-align: center;
+}
+
+.pagination a {
+    color: #9EABB3;
+}
+
+/* Push the previous/next links out to the left/right */
+.older-posts,
+.newer-posts {
+    position: absolute;
+    display: inline-block;
+    text-decoration: none;
+    padding: 2px 0;
+}
+
+.older-posts {
+    right: 0;
+}
+
+.page-number {
+    display: inline-block;
+    padding: 2px 0;
+    min-width: 100px;
+}
+
+.newer-posts {
+    left: 0;
+}
+
+.extra-pagination {
+    display: none;
+}
+
+.extra-pagination .pagination {
+    width: auto;
+}
+
+/* On page2+ show extra pagination controls at the top of post list */
+.paged .extra-pagination {
+    display: block;
+}
+
+
+/*	==========================================================================
 	Site footer
 	========================================================================== */
 
