@@ -28,13 +28,12 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 a {
-/*	color: #0A60FF;*/
 	color: #0744B6;
 	text-decoration: none;
 }
 
 a:hover {
-	color: #0A60FF;
+	color: #0744B6;
 	text-decoration-color: inherit;
 	text-decoration: underline;
 }
