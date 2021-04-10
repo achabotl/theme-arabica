@@ -114,6 +114,12 @@ blockquote p {
 	border-color: #0A60FF;
 }
 
+article {
+	border-bottom-color: rgb(238, 238, 238);
+	border-bottom-style: solid;
+	border-bottom-width: 1px;
+}
+
 article header {
 	margin-top: 4rem;
 	padding: 0;
