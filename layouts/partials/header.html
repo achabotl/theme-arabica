@@ -1,6 +1,6 @@
 <header class="main-header">
 	<div class="h-card main-header-content">
-		<h1 class=" blog-title">
+		<div class=" blog-title">
 			<a class="u-url p-name" href="{{ "/" | relLangURL }}">
 				{{ if .Site.Params.logoTitle }}
 					{{ .Site.Params.logoTitle | safeHTML }}
@@ -8,7 +8,7 @@
            			{{ .Site.Title }}
 				{{ end }}
 			</a>
-		</h1>
+		</div>
 		<h2 class="p-note blog-description">{{ .Site.Params.description | safeHTML }}</h2>
 	</div>
 
