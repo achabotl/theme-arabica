@@ -156,7 +156,7 @@ table {
 .main-header {
     position: relative;
     width: 100%;
-    padding-top: 2rem;
+    padding-top: 1rem;
     text-align: center;
     vertical-align: middle;
     overflow: hidden;
@@ -190,6 +190,7 @@ table {
     letter-spacing: 0;
     color: #9EABB3;
     font-weight: 300;
+    line-height: 1;
 }
 
 
@@ -214,6 +215,11 @@ table {
 	margin: 0 0.5rem;
 	color: #9EABB3;
 	text-decoration: none;
+}
+
+.nav a:hover {
+	color: #0744B6;
+	text-decoration-color: inherit;
 }
 
 
