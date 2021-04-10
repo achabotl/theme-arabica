@@ -16,7 +16,7 @@ body {
     width: 80%;
     max-width: 650px;
     margin: 0 auto;
-	font-family: mrs-eaves, serif;
+	font-family: "mrs-eaves", serif;
 	font-weight: 400;
 	font-style: normal;
     line-height: 1.4;
@@ -94,12 +94,12 @@ code {
 	font-family: inherit;
 /*	font-style: italic;*/
 /*	font-weight: bold;*/
-	font-family: input-mono-condensed, monospace;
+	font-family: "input-mono-condensed", monospace;
 	font-size: 0.63rem;
 }
 
 pre code {
-	font-family: input-mono-condensed, monospace;
+	font-family: "input-mono-condensed", monospace;
 	font-style: bold;
 	font-weight: 300;
 	font-size: 0.7rem;
