@@ -1,25 +1,25 @@
 html {
-    height: 100%;
-    max-height: 100%;
-    font-size: 22px;
-    -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+	height: 100%;
+	max-height: 100%;
+	font-size: 22px;
+	-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 body {
-    -webkit-font-feature-settings: 'kern' 1;
-    -moz-font-feature-settings: 'kern' 1;
-    -ms-font-feature-settings: 'kern' 1;
-    -o-font-feature-settings: 'kern' 1;
-    font-feature-settings: 'kern' 1;
-    height: 100%;
-    max-height: 100%;
-    width: 80%;
-    max-width: 650px;
-    margin: 0 auto;
+	-webkit-font-feature-settings: 'kern' 1;
+	-moz-font-feature-settings: 'kern' 1;
+	-ms-font-feature-settings: 'kern' 1;
+	-o-font-feature-settings: 'kern' 1;
+	font-feature-settings: 'kern' 1;
+	height: 100%;
+	max-height: 100%;
+	width: 80%;
+	max-width: 650px;
+	margin: 0 auto;
 	font-family: "mrs-eaves", serif;
 	font-weight: 400;
 	font-style: normal;
-    line-height: 1.4;
+	line-height: 1.4;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -142,7 +142,7 @@ article header {
 	color: red;
 }
 
-/*  ==========================================================================
+/* ==========================================================================
 	Tables
 	========================================================================== */
 
@@ -152,26 +152,26 @@ table {
 	border-spacing: 15px 0;
 }
 
-/*  ==========================================================================
+/* ==========================================================================
 	Code highlighting
 	========================================================================== */
 
 .highlight pre {
-  background-color: inherit !important;
+	background-color: inherit !important;
 }
 
-/*	==========================================================================
+/* ==========================================================================
 	Blog header
 	========================================================================== */
 
 .main-header {
-    position: relative;
-    width: 100%;
-    padding-top: 1rem;
-    text-align: center;
-    vertical-align: middle;
-    overflow: hidden;
-    display: table;
+	position: relative;
+	width: 100%;
+	padding-top: 1rem;
+	text-align: center;
+	vertical-align: middle;
+	overflow: hidden;
+	display: table;
 }
 
 .main-header-content {
@@ -179,29 +179,30 @@ table {
 }
 
 .blog-title {
-    margin: 0;
-    padding: 0;
+	margin: 0;
+	padding: 0;
 	font-variant: small-caps;
 	font-weight: 200;
-    font-size: 2.887rem;
-    vertical-align: middle;
-    line-height: 1;
+	font-size: 2.887rem;
+	vertical-align: middle;
+	line-height: 1;
+	color: inherit;
 }
 
 .main-header a {
-	font-color: inherit;
+	color: inherit;
 	text-decoration: none;
 }
 
 .blog-description {
 	padding-top: 10px;
-    margin: 0;
-    font-size: 0.889rem;
-    text-transform: uppercase;
-    letter-spacing: 0;
-    color: #9EABB3;
-    font-weight: 300;
-    line-height: 1;
+	margin: 0;
+	font-size: 0.889rem;
+	text-transform: uppercase;
+	letter-spacing: 0;
+	color: #9EABB3;
+	font-weight: 300;
+	line-height: 1;
 }
 
 
@@ -209,7 +210,7 @@ table {
 	color: black;
 }
 
-/*	==========================================================================
+/* ==========================================================================
 	Navigation
 	========================================================================== */
 
@@ -242,78 +243,78 @@ a.nav-home, a.nav-blog {
 	color: #9EABB3;
 }
 
-/*	==========================================================================
+/* ==========================================================================
 	Pagination
 	========================================================================== */
 
 /* The main wrapper for pagination links */
 .pagination {
-    position: relative;
-    margin: 2rem auto;
-    font-size: .79rem;
-    color: #9EABB3;
-    text-align: center;
+	position: relative;
+	margin: 2rem auto;
+	font-size: .79rem;
+	color: #9EABB3;
+	text-align: center;
 }
 
 .pagination a {
-    color: #9EABB3;
+	color: #9EABB3;
 }
 
 /* Push the previous/next links out to the left/right */
 .older-posts,
 .newer-posts {
-    position: absolute;
-    display: inline-block;
-    text-decoration: none;
-    padding: 2px 0;
+	position: absolute;
+	display: inline-block;
+	text-decoration: none;
+	padding: 2px 0;
 }
 
 .older-posts {
-    right: 0;
+	right: 0;
 }
 
 .page-number {
-    display: inline-block;
-    padding: 2px 0;
-    min-width: 100px;
+	display: inline-block;
+	padding: 2px 0;
+	min-width: 100px;
 }
 
 .newer-posts {
-    left: 0;
+	left: 0;
 }
 
 .extra-pagination {
-    display: none;
+	display: none;
 }
 
 .extra-pagination .pagination {
-    width: auto;
+	width: auto;
 }
 
 /* On page2+ show extra pagination controls at the top of post list */
 .paged .extra-pagination {
-    display: block;
+	display: block;
 }
 
 
-/*	==========================================================================
+/* ==========================================================================
 	Site footer
 	========================================================================== */
 
 .site-footer {
-    position: relative;
-    display: table;
-    width: 100%;
-    margin-top: 3rem;
-    padding-bottom: 1rem;
-    text-align: center;
-    overflow: hidden;
-    font-size: .79rem;
+	position: relative;
+	display: table;
+	width: 100%;
+	margin-top: 3rem;
+	padding-bottom: 1rem;
+	text-align: center;
+	overflow: hidden;
+	font-size: .79rem;
 }
 
 /* ==========================================================================
-   12. Media Queries - Smaller than 500px
-   ========================================================================== */
+	 12. Media Queries - Smaller than 500px
+	 ========================================================================== */
 
 @media only screen and (max-width: 500px) {
 
@@ -322,17 +323,17 @@ a.nav-home, a.nav-blog {
 	}
 
 	body {
-	    width: 100%;
-	    max-width: 90%;
-	    margin: 0 auto;
+		width: 100%;
+		max-width: 90%;
+		margin: 0 auto;
 	}
 
-   .blog-title {
+	 .blog-title {
 		font-size: 1.8rem;
 	}
 
 	.blog-description {
-	   font-size: 0.889rem;
+		 font-size: 0.889rem;
 	}
 }
 
